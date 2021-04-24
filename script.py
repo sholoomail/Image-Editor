@@ -10,9 +10,9 @@ My dev ; @Amalbiju154
 
 Our All bot stuts : https://t.me/Animemusicarchive6/3115
 
-⭕️Our channel :https://t.me/Animemusicarchive6
+Our channel :https://t.me/Animemusicarchive6
 
-⭕️Our Group : https://t.me/Yeageristbots
+Our Group : https://t.me/Yeageristbots
 
 
 For more click help....</b>"""
@@ -38,6 +38,3 @@ For more click help....</b>"""
 
 ⭕️<b>All bot stauts :</b> 👉 <a href='https://t.me/Animemusicarchive6/3115'>Click Here</a>"""
     
-⭕️<b>Our channel :</b> 👉 <a href='https://t.me/Animemusicarchive6'>Click Here</a>"""
-
-⭕️<b>Our Group :</b> 👉 <a href='https://t.me/Yeageristbots'>Click Here</a>"""
