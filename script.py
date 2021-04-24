@@ -4,6 +4,12 @@ class script(object):
 
 I'm a Yᴇᴀɢᴇʀɪsᴛ Image Editor Bot which Supports various modes
 
+A bot made by @Animemusicarchive6
+
+My dev ; @Amalbiju154
+
+Our All bot stuts : https://t.me/Animemusicarchive6/3115
+
 For more click help....</b>"""
     HELP_MSG = """Hai, Follow these Steps..
 
