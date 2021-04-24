@@ -2,7 +2,7 @@ class script(object):
 
     START_MSG = """ <b>Hi {}
 
-I'm a Image Editor Bot which Supports various modes
+I'm a Yᴇᴀɢᴇʀɪsᴛ Image Editor Bot which Supports various modes
 
 For more click help....</b>"""
     HELP_MSG = """Hai, Follow these Steps..
@@ -15,10 +15,10 @@ For more click help....</b>"""
 
 
 © @TroJanzHEX"""
-    ABOUT_MSG = """⭕️<b>My Name : Image Editor</b>
+    ABOUT_MSG = """⭕️<b>My Name : Yᴇᴀɢᴇʀɪsᴛ Image Editor</b>
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
 ⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a>
 
-⭕️<b>Source Code :</b> 👉 <a href='https://github.com/TroJanzHEX/Image-Editor'>Click Here</a>"""
+⭕️<b>All bot stauts :</b> 👉 <a href='https://t.me/Animemusicarchive6/3115'>Click Here</a>"""
