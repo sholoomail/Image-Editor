@@ -24,9 +24,6 @@ For more click help....</b>"""
 
 <code>🌀 Your Edited Image will be Uploaded </code>
 
-⭕️<b>Our channel :</b> 👉 <a href='https://t.me/Animemusicarchive6'>Click Here</a>"""
-
-⭕️<b>Our Group :</b> 👉 <a href='https://t.me/Yeageristbots'>Click Here</a>"""
 
 
 © @Animemusicarchive6"""
