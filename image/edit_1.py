@@ -63,7 +63,6 @@ async def mix(client, message):
             red, green, blue = image.split()
             new_image = Image.merge("RGB", (green, red, blue))
             new_image.save(edit_img_loc)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -103,7 +102,6 @@ async def black_white(client, message):
             image_file = cv2.imread(a)
             grayImage = cv2.cvtColor(image_file, cv2.COLOR_BGR2GRAY)
             cv2.imwrite(edit_img_loc, grayImage)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -143,7 +141,6 @@ async def normal_blur(client, message):
             OriImage = Image.open(a)
             blurImage = OriImage.filter(ImageFilter.BLUR)
             blurImage.save(edit_img_loc)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -183,7 +180,6 @@ async def g_blur(client, message):
             im1 = Image.open(a)
             im2 = im1.filter(ImageFilter.GaussianBlur(radius=5))
             im2.save(edit_img_loc)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -223,7 +219,6 @@ async def box_blur(client, message):
             im1 = Image.open(a)
             im2 = im1.filter(ImageFilter.BoxBlur(0))
             im2.save(edit_img_loc)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
