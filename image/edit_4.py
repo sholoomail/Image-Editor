@@ -32,7 +32,6 @@ async def rotate_90(client, message):
             src = cv2.imread(a)
             image = cv2.rotate(src, cv2.cv2.ROTATE_90_CLOCKWISE)
             cv2.imwrite(edit_img_loc, image)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
