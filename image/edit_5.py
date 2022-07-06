@@ -65,7 +65,6 @@ async def normalglitch_2(client, message):
                 *cd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
             )
             await process.communicate()
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -107,7 +106,6 @@ async def normalglitch_3(client, message):
                 *cd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
             )
             await process.communicate()
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -149,7 +147,6 @@ async def normalglitch_4(client, message):
                 *cd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
             )
             await process.communicate()
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -191,7 +188,6 @@ async def normalglitch_5(client, message):
                 *cd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
             )
             await process.communicate()
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -233,7 +229,6 @@ async def scanlineglitch_1(client, message):
                 *cd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
             )
             await process.communicate()
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -275,7 +270,6 @@ async def scanlineglitch_2(client, message):
                 *cd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
             )
             await process.communicate()
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -317,7 +311,6 @@ async def scanlineglitch_3(client, message):
                 *cd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
             )
             await process.communicate()
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -359,7 +352,6 @@ async def scanlineglitch_4(client, message):
                 *cd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
             )
             await process.communicate()
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -401,7 +393,6 @@ async def scanlineglitch_5(client, message):
                 *cd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
             )
             await process.communicate()
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
