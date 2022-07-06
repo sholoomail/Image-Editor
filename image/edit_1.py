@@ -23,7 +23,6 @@ async def bright(client, message):
             image = Image.open(a)
             brightness = ImageEnhance.Brightness(image)
             brightness.enhance(1.5).save(edit_img_loc)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
