@@ -71,7 +71,6 @@ async def rotate_180(client, message):
             src = cv2.imread(a)
             image = cv2.rotate(src, cv2.ROTATE_180)
             cv2.imwrite(edit_img_loc, image)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -111,7 +110,6 @@ async def rotate_270(client, message):
             src = cv2.imread(a)
             image = cv2.rotate(src, cv2.ROTATE_90_COUNTERCLOCKWISE)
             cv2.imwrite(edit_img_loc, image)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -170,7 +168,6 @@ async def round_sticker(client, message):
             npAlpha = np.array(alpha)
             npImage = np.dstack((npImage, npAlpha))
             Image.fromarray(npImage).save(edit_img_loc)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_sticker(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -210,7 +207,6 @@ async def inverted(client, message):
             image = Image.open(a)
             inverted_image = ImageOps.invert(image)
             inverted_image.save(edit_img_loc)
-            await message.reply_chat_action("upload_photo")
             await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
             await msg.delete()
         else:
@@ -324,7 +320,6 @@ async def removebg_white(client, message):
                     )
                     return
 
-                await message.reply_chat_action("upload_photo")
                 await message.reply_to_message.reply_photo(edit_img_loc, quote=True)
                 await msg.delete()
             else:
@@ -384,7 +379,6 @@ async def removebg_sticker(client, message):
                     )
                     return
 
-                await message.reply_chat_action("upload_photo")
                 await message.reply_to_message.reply_sticker(edit_img_loc, quote=True)
                 await msg.delete()
             else:
