@@ -260,8 +260,6 @@ async def removebg_plain(client, message):
                     )
                     return
 
-                await message.reply_chat_action("upload_document")
-                await message.reply_to_message.reply_document(edit_img_loc, quote=True)
                 await msg.delete()
             else:
                 await message.reply_text("Why did you delete that??")
